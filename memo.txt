@@ -1,0 +1,7 @@
+g++ main.cpp -o output
+./output
+Pour ouvrir un Visual Studio code, se placer dans le dossier et faire "code ."
+
+Pour convertir données GPS : 
+        def GPStoXY(lx0,lx,ly0,ly,ro):
+            return np.array([ro*np.cos(ly)*(lx-lx0),ro*(ly-ly0)])
